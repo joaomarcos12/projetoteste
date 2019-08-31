@@ -1,0 +1,104 @@
+﻿
+@{
+    ViewData["Title"] = "Restaurante";
+}
+
+<h2>Restaurante</h2>
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link href="css/estilo.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+          integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <title>Hey up! London</title>
+</head>
+
+<body>
+    <header></header>
+    <main>
+        <div class="header" id="header">
+        </div>
+        <ul>
+            <li><a href="index.htm" class="active">WYNONNA EARP</a></li>
+            <li><a href="metro.htm">PERSONAGENS/ELENCO</a></li>
+            <li><a href="dicas.htm">EPISÓDIOS</a></li>
+            <li><a href="pontos.htm">HITÓRIA</a></li>
+            <li><a href="cadastro.htm">CURIOSIDADES</a></li>
+            <li><a href="restaurante.htm">#FigthForWynonna</a></li>
+            <li><a href="album.htm">MURAL DOS VISITANTES</a></li>
+
+        </ul>
+        <div class="quadroprincipal">
+            <h1>Indique suas experiências em Londres.</h1>
+            <h3>Londres, 23 de abril de 2019.</h3>
+            <div class="quadroimagem" id="imagem9"></div>
+            <div class="formulario">
+                <form action="#" method="POST">
+                    <fieldset>
+                        <legend>Pubs & Restaurantes</legend>
+                        <label for="nomeEstabelecimento">Nome Estabelecimento </label>
+                        <input type="text" id="nomeEstabelecimento" required=""
+                               placeholder="Digite nome estabelecimento">
+                        <label for="">Selecione o tipo: </label>
+                        <select id="tiposPubs">
+
+                            <option value="pb">Pub's Beer</option>
+                            <option value="rt">Restaurante Temático</option>
+                            <option value="ps">Pub's Show</option>
+                            <option value="mp">Motor Pub's</option>
+                            <option value="sp">Sport Pub's</option>
+                        </select>
+                        <label>Horário de Funcionamento: </label>
+                        <input type="datetime-local" id="data">
+                        <br>
+                        <fieldset>
+                            <legend>Dê uma nota para atração & entreterimento:</legend>
+                            <input type="radio" value="10" name="design" id="design">10
+                            <input type="radio" value="9" name="design" id="design">9
+                            <input type="radio" value="8" name="design" id="design">8
+                            <input type="radio" value="7" name="design" id="design">7
+                            <input type="radio" value="6" name="design" id="design">6
+                            <input type="radio" value="5" name="design" id="design">5
+                            <input type="radio" value="4" name="design" id="design">4
+                            <input type="radio" value="3" name="design" id="design">3
+                            <input type="radio" value="2" name="design" id="design">2
+                            <input type="radio" value="1" name="design" id="design">1
+                        </fieldset>
+                        <br>
+                        <fieldset>
+                            <legend>Dê uma nota para comida e petiscos:</legend>
+                            <input type="radio" value="10" name="conteudo" id="conteudo">10
+                            <input type="radio" value="9" name="conteudo" id="conteudo">9
+                            <input type="radio" value="8" name="conteudo" id="conteudo">8
+                            <input type="radio" value="7" name="conteudo" id="conteudo">7
+                            <input type="radio" value="6" name="conteudo" id="conteudo">6
+                            <input type="radio" value="5" name="conteudo" id="conteudo">5
+                            <input type="radio" value="4" name="conteudo" id="conteudo">4
+                            <input type="radio" value="3" name="conteudo" id="conteudo">3
+                            <input type="radio" value="2" name="conteudo" id="conteudo">2
+                            <input type="radio" value="1" name="conteudo" id="conteudo">1
+                        </fieldset>
+                        <label for="site">Site: </label>
+                        <input type="text" id="site" required="" placeholder="Digite o site">
+                        <label for="tel">Telefone: </label>
+                        <input type="text" id="tel" placeholder="Digite telefone">
+                        <label for="email">E-Mail: </label>
+                        <input type="email" id="email" placeholder="Digite seu e-mail">
+                        <br>
+                        <br>
+                        <input type="reset">
+                        <input type="submit">
+
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer></footer>
+</body>
+
+</html>
+

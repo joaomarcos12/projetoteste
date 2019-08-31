@@ -1,0 +1,146 @@
+﻿
+@{
+    ViewData["Title"] = "Cadastro";
+}
+
+<h2>Cadastro</h2>
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link href="css/estilo.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+          integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <title>Hey up! London</title>
+</head>
+
+<body>
+    <header></header>
+    <main>
+        <div class="header" id="header">
+        </div>
+        <ul>
+            <li><a href="index.htm" class="active">WYNONNA EARP</a></li>
+            <li><a href="metro.htm">PERSONAGENS/ELENCO</a></li>
+            <li><a href="dicas.htm">EPISÓDIOS</a></li>
+            <li><a href="pontos.htm">HITÓRIA</a></li>
+            <li><a href="cadastro.htm">CURIOSIDADES</a></li>
+            <li><a href="restaurante.htm">#FigthForWynonna</a></li>
+            <li><a href="album.htm">MURAL DOS VISITANTES</a></li>
+
+        </ul>
+        <div class="quadroprincipal">
+            <h1>Venha fazer parte de nossa turma.</h1>
+            <h3>Londres, 15 de abril de 2019.</h3>
+            <div class="quadroimagem" id="imagem8"></div>
+            <br>
+            <div id="quadrovideoS">
+                <h1>Discurso de premiação Dominique Provost Chackley</h1>
+                <h3>Canadian Screen Award, 2019 </h3>
+                <br>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/-fi-qk-E0vA" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+            </div>
+
+            <div id="quadrovideoS">
+                <h1>Discurso de premiação Dominique Provost Chackley</h1>
+                <h3>Canadian Screen Award, 2019 </h3>
+                <br>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/STMeFBcZiyE" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+            </div>
+        </div>
+        <br>
+        <div class="quadroprincipal">
+            <div class="formulario">
+                <form action="#" method="POST">
+                    <fieldset>
+                        <legend>Informações Pessoais</legend>
+                        <label for="nome">Nome: </label>
+                        <input type="text" id="nome" placeholder="Entre com seu nome." class="form-control">
+                        <label for="sobrenome">Sobrenome: </label>
+                        <input type="text" id="sobrenome" placeholder="Entre com seu sobrenome." class="form-control">
+                        <label for="apelido">Nome de Usuário: </label>
+                        <input type="text" id="apelido" placeholder="Defina um apelido." class="form-control">
+                        <label for="mail">E-Mail: </label>
+                        <input type="email" id="mail" placeholder="Entre com seu e-mail" class="form-control">
+                        <label for="sexo">Genero: </label>
+                        <select id="sexo">
+                            <option value="N">Genero</option>
+                            <option value="F">Feminino</option>
+                            <option value="M">Masculino</option>
+                            <option value="O">Não Declarar</option>
+                        </select>
+                        <br>
+                        <fieldset>
+                            <legend>Dê uma nota para nosso Design: </legend>
+                            <input type="radio" value="10" name="design" id="design">10
+                            <input type="radio" value="9" name="design" id="design">9
+                            <input type="radio" value="8" name="design" id="design">8
+                            <input type="radio" value="7" name="design" id="design">7
+                            <input type="radio" value="6" name="design" id="design">6
+                            <input type="radio" value="5" name="design" id="design">5
+                            <input type="radio" value="4" name="design" id="design">4
+                            <input type="radio" value="3" name="design" id="design">3
+                            <input type="radio" value="2" name="design" id="design">2
+                            <input type="radio" value="1" name="design" id="design">1
+                        </fieldset>
+                        <br>
+                        <br>
+                        <fieldset>
+                            <legend>Dê uma nota para nosso Conteúdo:</legend>
+                            <input type="radio" value="10" name="conteudo" id="conteudo">10
+                            <input type="radio" value="9" name="conteudo" id="conteudo">9
+                            <input type="radio" value="8" name="conteudo" id="conteudo">8
+                            <input type="radio" value="7" name="conteudo" id="conteudo">7
+                            <input type="radio" value="6" name="conteudo" id="conteudo">6
+                            <input type="radio" value="5" name="conteudo" id="conteudo">5
+                            <input type="radio" value="4" name="conteudo" id="conteudo">4
+                            <input type="radio" value="3" name="conteudo" id="conteudo">3
+                            <input type="radio" value="2" name="conteudo" id="conteudo">2
+                            <input type="radio" value="1" name="conteudo" id="conteudo">1
+                        </fieldset>
+                        <br>
+                        <br>
+                        <fieldset>
+                            <legend>Dê uma nota para nossas Dicas:</legend>
+                            <input type="radio" value="10" name="dica" id="dica">10
+                            <input type="radio" value="9" name="dica" id="dica">9
+                            <input type="radio" value="8" name="dica" id="dica">8
+                            <input type="radio" value="7" name="dica" id="dica">7
+                            <input type="radio" value="6" name="dica" id="dica">6
+                            <input type="radio" value="5" name="dica" id="dica">5
+                            <input type="radio" value="4" name="dica" id="dica">4
+                            <input type="radio" value="3" name="dica" id="dica">3
+                            <input type="radio" value="2" name="dica" id="dica">2
+                            <input type="radio" value="1" name="dica" id="dica">1
+                        </fieldset>
+                        <br>
+                        <textarea id="comentario" cols="30" rows="5" placeholder="Digite seu comentário."></textarea>
+                        <label for="data">Data: </label>
+                        <input type="datetime-local" id="dataAtual">
+                        <span id="notaMedia"></span>
+                        <input type="reset">
+                        <button onclick="validaCadastro()" class="btn-info">Enviar</button>
+                    </fieldset>
+                </form>
+            </div>
+
+        </div>
+
+
+
+
+
+    </main>
+    <footer>
+        <script src="js/action.js" type="text/javascript"></script>
+    </footer>
+</body>
+
+</html>
+

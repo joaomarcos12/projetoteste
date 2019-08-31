@@ -1,0 +1,265 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Carousel */
+.carousel-caption p {
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+/* Make .svg files in the carousel display properly in older browsers */
+.carousel-inner .item img[src$=".svg"] {
+    width: 100%;
+}
+
+/* QR code generator */
+#qrCode {
+    margin: 15px;
+}
+
+/* Hide/rearrange for smaller screens */
+@media screen and (max-width: 767px) {
+    /* Hide captions */
+    .carousel-caption {
+        display: none;
+    }
+}
+
+.quadroprincipal {
+    flex: 70%;
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.quadroimagem {
+    background-color: #555555;
+    width: 92%;
+    padding: 2%;
+    height: 250px;
+    border-radius: 15px;
+    margin: 2%;
+}
+/*coisas minhas*/
+.header {
+    background-color: #aaa;
+    width: 100%;
+    /*padding: 2%;*/
+    height: 250px;
+    /*border-radius: 15px;*/
+    /*margin: 2%;*/
+}
+
+.quadrovideo {
+    width: 92%;
+    height: 560px;
+    background-color: #ffffff;
+    padding: 2%;
+    border-radius: 15px;
+    margin: 4%;
+    float: left;
+}
+
+#quadrovideoS {
+    width: 45%;
+    height: 560px;
+    background-color: #ccc;
+    padding: 2%;
+    border-radius: 15px;
+    margin: 4%;
+    float: left;
+}
+
+.l {
+    width: 48%;
+    height: 100%;
+    float: left;
+}
+
+.r {
+    width: 48%;
+    height: 100%;
+    float: left;
+}
+/*deu ruim
+        .index1{
+            width: 50%;
+            height: 100%;
+            padding: 0px 25%;
+        }
+        .index{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        */
+
+#header {
+    background-image: url(../img/header.jpg);
+    background-position: 55% 50%;
+}
+
+#imagem1 {
+    background-image: url(../images/album1.jpg);
+    background-position: 0px -100px;
+}
+
+#imagem2 {
+    background-image: url(../images/album2.jpg);
+    background-position: -440px -480px;
+}
+
+#imagem3 {
+    background-image: url(../images/album3.jpg);
+    background-position: -440px -480px;
+}
+
+#imagem4 {
+    background-image: url(../images/album4.jpg);
+    background-position: -440px -480px;
+}
+
+#imagem5 {
+    background-image: url(../images/banner1.jpg);
+    background-position: -440px -680px;
+}
+
+#imagem6 {
+    background-image: url(../images/banner2.jpg);
+    background-position: -50px -400px;
+}
+
+#imagem7 {
+    background-image: url(../images/Capa.jpg);
+    background-position: -50px -400px;
+}
+
+#imagem8 {
+    background-image: url(../images/);
+    background-position: -50px -350px;
+}
+
+#imagem9 {
+    background-image: url(../images/);
+    background-position: -130px -500px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ccc;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul:not(.index) {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li:not(.hud1) {
+    float: left;
+}
+
+li a:not(.hud1) {
+    display: block;
+    color: aliceblue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.active {
+    background-color: indigo;
+}
+
+li:hover:not(.active), li:hover:not(.hud1) {
+    background-color: #777;
+}
+/*coisa minha
+        .hud1{
+            text-decoration: none;
+            text-align: center;
+            padding: 250px 250px ;
+            display: block;
+        }*/
+
+.capsula {
+    width: 150px;
+    height: 80px;
+    margin: 5px;
+    padding: 10px;
+    background-color: indigo;
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 30px;
+}
+
+table {
+    width: 96%;
+    margin: 2%;
+    border-collapse: collapse;
+}
+
+td, th {
+    text-align: left;
+    padding: 10px;
+}
+
+th {
+    background-color: indigo;
+    color: azure;
+}
+
+tr:nth-child(even) {
+    background-color: #e3e3e3;
+}
+
+tr:hover {
+    background-color: cornflowerblue;
+    transform: scale(1.07);
+    transition: 0.5s;
+}
+
+input[type=text], select, input[type=email], textarea, input[type=datetime-local], input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=radio] {
+    display: inline-block;
+    margin: 10px;
+    padding: 5px;
+}
+
+input[type=submit], input[type=reset], button[class="btn"] {
+    width: 46%;
+    background-color: #4caf50;
+    color: #ffffff;
+    padding: 14px 20px;
+    margin: 1%;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.formulario {
+    width: 40%;
+    margin-left: 30%;
+}
